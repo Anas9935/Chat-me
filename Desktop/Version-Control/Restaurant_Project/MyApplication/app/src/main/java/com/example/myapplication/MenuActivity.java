@@ -28,7 +28,7 @@ ArrayList<menuitem> list;
 
 
         list=new ArrayList<>();
-        list.add(new menuitem(R.drawable.res1,0,"Veg Harayanawi Roll",249));
+        list.add(new menuitem(R.drawable.res1,0,"Veg Harayanwi Roll",249));
         adapter=new menuAdapter(this,list);
         menulv.setAdapter(adapter);
 

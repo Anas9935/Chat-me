@@ -47,15 +47,15 @@ public class menuAdapter extends ArrayAdapter {
         add=(Button)view.findViewById(R.id.menuadd);
         ll=(LinearLayout)view.findViewById(R.id.menuaddlayout);
 
-      //  main.setImageResource(current.getImgid());
+        main.setImageResource(current.getImgid());
         switch(current.getType()){
             case 0:{
-               // type.setImageResource(R.drawable.veg);
+               type.setImageResource(R.drawable.veg);
                 break;
             }
             case 1:{
                 //add non veg mark
-               // type.setImageResource(R.drawable.nonveg);
+                type.setImageResource(R.drawable.nonveg);
                 break;
             }
         }

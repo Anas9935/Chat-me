@@ -1,6 +1,7 @@
 package com.example.myapplication.Adapters;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -48,7 +49,8 @@ ImageView img;
         offer.setText(current.getOffer());
         offer2.setText(current.getOffer2());
         rating.setText(String.valueOf(current.getRating()));
-        // img.setImageResource(current.getImgId());
+       // Log.e("LOGTAG","id-"+current.getImgId()+":"+R.drawable.res1);
+         img.setImageResource(current.getImgId());
         return view;
     }
 }
